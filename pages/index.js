@@ -15,7 +15,7 @@ export default function Home() {
   const [player, setPlayer] = useState(null)
 
   useEffect(() => {
-    const p = new Player("422.037", "furioos_container", options);
+    const p = new Player("211.553", "furioos_container", options);
     setPlayer(p);
   }, [])
   return (
